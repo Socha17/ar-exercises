@@ -7,8 +7,8 @@ puts "----------"
 
 
 
-Burnaby = Store.create(annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
-Richmond = Store.create(annual_revenue: 1260000, womens_apparel: true)
-Gastown = Store.create(annual_revenue: 190000, mens_apparel: true)
+Burnaby = Store.create(name:"Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
+Richmond = Store.create(name:"Richmond", annual_revenue: 1260000, womens_apparel: true)
+Gastown = Store.create(name:"Richmond", annual_revenue: 190000, mens_apparel: true)
 
 puts Store.count
